@@ -1,0 +1,31 @@
+{
+  "name": "smart-traffic-management-system",
+  "version": "1.0.0",
+  "description": "AI-Based Smart Traffic Management System Using Computer Vision and Dynamic Signal Optimization",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "start": "npm run dev",
+    "ai:start": "cd ai-engine && python main.py"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "traffic-management",
+    "computer-vision",
+    "yolo",
+    "ai",
+    "machine-learning",
+    "smart-city",
+    "full-stack",
+    "react",
+    "nodejs",
+    "socketio"
+  ],
+  "author": "Final Year CSE Project",
+  "license": "MIT"
+}
